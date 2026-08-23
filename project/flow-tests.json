@@ -1,0 +1,22 @@
+{
+  "flowInputNode": {
+    "nodeName": "FlowInputNode"
+  },
+  "tests": [
+    {
+      "id": "test-bug-01",
+      "prompt": "When I click checkout on Chrome v122, the page crashes with a white screen. Steps: 1. Add item to cart. 2. Click Checkout.",
+      "expected": "Bug report successfully logged"
+    },
+    {
+      "id": "test-faq-01",
+      "prompt": "How do I place an order on your website?",
+      "expected": "Add items to your cart, proceed to checkout..."
+    },
+    {
+      "id": "test-other-01",
+      "prompt": "Do you offer corporate sponsorships for tech events?",
+      "expected": "Please contact our customer support team directly..."
+    }
+  ]
+}
